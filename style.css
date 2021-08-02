@@ -1,0 +1,308 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    background-color: #181717;
+}
+
+
+/* navbar */
+
+nav {
+    padding: 50px;
+    background-color: #110D09;
+}
+
+.navbar-brand {
+    font-weight: 550;
+    letter-spacing: 2px;
+}
+
+.navbar-brand:hover {
+    color: #AC9356 !important;
+}
+
+.nav-item {
+    font-size: 0.8em;
+    margin: 0 10px;
+}
+
+.nav-item a:hover {
+    color: #AC9356 !important;
+}
+
+
+/* header */
+
+.header {
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 'title' 'sub_text' 'btn_explore';
+    background-image: url(img/bg@2x.png);
+    background-size: cover;
+    min-height: 550px;
+    background-position: center;
+    text-align: center;
+    place-content: center;
+    color: #fff;
+}
+
+.header h2 {
+    grid-area: title;
+    font-size: 4em;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+h2 .hard {
+    display: inline;
+    color: #AC9356;
+}
+
+.header p {
+    /* margin: 8px; */
+    font-weight: 300;
+    font-size: 0.7em;
+    letter-spacing: 4px;
+}
+
+.btn-warning {
+    background-color: #fff;
+    color: black;
+    max-width: max-content;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 30px;
+    font-size: 0.7em;
+    font-weight: 600;
+    margin-left: 40%;
+}
+
+.btn-warning:hover {
+    background-color: #AC9356;
+    --tw-shadow: inset 0 0px 25px 0 #524014;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+
+/* details */
+
+.details {
+    color: #938262;
+}
+
+.details {
+    text-align: center;
+}
+
+.details .details-title {
+    margin: 80px;
+}
+
+.details .details-title p {
+    font-weight: 200;
+    font-style: italic;
+}
+
+.details .details-title h2 {
+    font-weight: 600;
+    font-size: 2em;
+    letter-spacing: 1px;
+}
+
+.details .details-title span {
+    background-color: #AC9356;
+    width: 124px;
+    height: 2px;
+}
+
+.details .card {
+    border: none;
+    background-color: #181717;
+    margin-bottom: 100px;
+}
+
+.details .card p {
+    font-size: 0.68em;
+    font-weight: 300;
+    color: #E6E6E6;
+}
+
+.details .card:hover {
+    padding: 10px;
+    border-style: solid;
+    border-width: 5px;
+}
+
+.food {
+    padding: 100px 0;
+    background-color: #E6E6E6;
+    text-align: center;
+}
+
+.food .food-details {
+    padding: 50px;
+    max-width: 550px;
+}
+
+.food .food-details h4 {
+    letter-spacing: 3px;
+}
+
+.food .food-details h2 {
+    margin-top: 12px;
+    font-size: 3em;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.food .food-details p {
+    margin: 70px 0;
+}
+
+.food .food-details a {
+    color: #AC9356;
+    font-weight: bold;
+}
+
+
+/* gallery */
+
+.gallery .img-1 {
+    background-image: url(img/pic_1.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 200px;
+}
+
+.gallery .img-2 {
+    background-image: url(img/pic_2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery .img-3 {
+    background-image: url(img/pic_3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery .img-4 {
+    background-image: url(img/pic_4.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.gallery .img-5 {
+    background-image: url(img/pic_5.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* socmed-details*/
+
+.socmed {
+    margin: 72px 0;
+}
+
+.socmed-details p {
+    color: #AC9356;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.socmed-details a {
+    margin: 3px;
+    text-decoration: none;
+}
+
+.socmed-details a:hover {
+    padding: 10px;
+    border-style: solid;
+    border-color: #AC9356;
+    border-width: 2px;
+    width: max-content;
+    border-radius: 5px;
+}
+
+.form-email {
+    text-align: left;
+    padding: 30px 0 0 0;
+    display: inline;
+}
+
+.btn-primary {
+    background-color: #AC9356;
+    border: none;
+    color: #181717;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    background-color: #AC9356;
+    color: #181717;
+    --tw-shadow: inset 0 0px 25px 0 #524014;
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+
+/* partner */
+
+.partner {
+    background-color: #24201F;
+    padding: 37px 0;
+}
+
+.partner img {
+    min-width: 100%;
+}
+
+
+/* footer */
+
+.footer {
+    padding: 30px 200px;
+    text-align: center;
+    font-size: 0.6em;
+}
+
+.footer p {
+    display: inline;
+    /* text-decoration: none; */
+    color: #bdbdbd;
+    margin: 0 5px;
+}
+
+@media (max-width:1000px) {
+    .food {
+        margin: auto;
+        padding: 50px 20px 50px 10%;
+    }
+    .food .col-3 {
+        max-width: 50%;
+    }
+    .food .col-6 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .food .img2 {
+        display: none !important;
+    }
+    .socmed-details {
+        text-align: center;
+    }
+    .form-email .btn-primary {
+        padding-left: 3px;
+        padding-right: 3px;
+        width: 100%;
+    }
+    .footer {
+        padding: 50px 20px;
+    }
+}
